@@ -68,6 +68,10 @@ class Owner
     @pets.clear
   end 
   
+  def list_pets
+    
+  end
+  
   def self.reset_all
     @@owners_count=0
   end
