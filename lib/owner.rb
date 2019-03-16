@@ -65,6 +65,7 @@ class Owner
             arr.mood="nervous" 
           end
     end
+    @pets.clear
   end 
   
   def self.reset_all
