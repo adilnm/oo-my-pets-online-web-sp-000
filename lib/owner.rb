@@ -63,6 +63,7 @@ class Owner
     @pets.each do |key,val|
         @pets[key].each do |arr|
             arr.mood="nervous" 
+          end
     end
   end 
   
