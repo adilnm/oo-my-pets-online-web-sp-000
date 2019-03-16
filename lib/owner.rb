@@ -59,12 +59,12 @@ class Owner
     end
   end  
   
-  # def sell_pets
-  #   @pets.each_key do |key|
-  #     key.each do |val|
+  def sell_pets
+    @pets.each_key do |key|
+      key.each do |val|
          
-  #   end
-  # end 
+    end
+  end 
   
   def self.reset_all
     @@owners_count=0
