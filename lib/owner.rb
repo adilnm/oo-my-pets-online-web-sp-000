@@ -69,7 +69,7 @@ class Owner
   end 
   
   def list_pets
-    
+     puts ""
   end
   
   def self.reset_all
